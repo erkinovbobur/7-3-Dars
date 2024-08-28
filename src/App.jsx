@@ -3,6 +3,7 @@ import Header from "./components/header/Header";
 import  Location  from "./components/location/Location";
 
 import "./App.css";
+import Info from "./components/info/Info";
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <Header/>
       <Banner/>
      <Location/>
+     <Info/>
     </>
   )
 }
